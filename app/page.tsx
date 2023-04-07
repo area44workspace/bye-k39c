@@ -21,7 +21,7 @@ const Home = async () => {
               TIỆC CHIA TAY Y ĐA KHOA K39C HPMU
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Hành trình 6 năm, hẹn gặp lại các bạn một ngày không xa.
+              6 năm một hành trình, hẹn gặp lại các bạn một ngày không xa!
             </p>
           </div>
           <Gallery images={imageFilenames} />
