@@ -2,13 +2,13 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Goodbye K39C | Microlens",
+  title: "Goodbye K39C",
   description: "Tiệc chia tay y đa khoa K39C HPMU",
   openGraph: {
-    title: "Goodbye K39C | Microlens",
+    title: "Goodbye K39C",
     description: "Tiệc chia tay y đa khoa K39C HPMU",
     url: "https://goodbyek39c.netlify.app",
-    siteName: "Goodbye K39C | Microlens",
+    siteName: "Goodbye K39C",
     images: [
       {
         url: "https://goodbyek39c.netlify.app/og.jpg",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Goodbye K39C | Microlens",
+    title: "Goodbye K39C",
     card: "summary_large_image",
   },
   icons: {
