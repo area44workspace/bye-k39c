@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Goodbye K39C",
     description: "Tiệc chia tay y đa khoa K39C HPMU",
-    url: "https://goodbyek39c.netlify.app",
+    url: "https://goodbye-k39c.netlify.app",
     siteName: "Goodbye K39C",
     images: [
       {
-        url: "https://goodbyek39c.netlify.app/og.jpg",
+        url: "https://goodbye-k39c.netlify.app/og.jpg",
         width: 1920,
         height: 1080,
       },
