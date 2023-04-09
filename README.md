@@ -14,3 +14,5 @@ cd goodbye-k39c
 pnpm install
 pnpm dev
 ```
+
+> 😊 Watching on [YouTube](https://www.youtube.com/playlist?list=PLWrDUpIqKqxIfisAvs99Z6qQE2RmjvEBG).
