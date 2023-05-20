@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://goodbye-k39c.netlify.app'),
-  title: 'Goodbye K39C',
+  title: 'Goodbye K39C | Microlens',
   description: 'Tiệc chia tay Y đa khoa K39C HPMU',
   openGraph: {
-    title: 'Goodbye K39C',
+    title: 'Goodbye K39C | Microlens',
     description: 'Tiệc chia tay Y đa khoa K39C HPMU',
     url: 'https://goodbye-k39c.netlify.app',
-    siteName: 'Goodbye K39C',
+    siteName: 'Goodbye K39C | Microlens',
     images: [
       {
         url: '/og-image.jpg',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Goodbye K39C',
+    title: 'Goodbye K39C | Microlens',
     description: 'Tiệc chia tay Y đa khoa K39C HPMU',
     creator: '@torn4dom4n',
     images: ['/og-image.jpg'],
