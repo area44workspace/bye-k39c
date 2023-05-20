@@ -1,5 +1,5 @@
-import photos from './photos'
-import Image from 'next/image'
+import photos from "./photos";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -48,17 +48,16 @@ export default function Home() {
               <span className="absolute inset-x-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
             <h1 className="mb-4 mt-8 font-bold uppercase tracking-widest">
-              KỶ NIỆM TAM ĐẢO 2023
+              GOODBYE K39C
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Hành trình Tam Đảo 2023, cùng nhau chúng tôi tạo nên những kỷ
-              niệm.
+              Tiệc chia tay Y đa khoa K39C HPMU.
             </p>
           </div>
           {photos.map(({ src, height, width }) => (
             <Image
               key={src}
-              alt="Kỷ niệm Tam Đảo 2023"
+              alt="Goodbye K39C"
               className="mb-5 rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
               src={`/photos/${src}`}
               placeholder="blur"
@@ -75,7 +74,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        made with ❤️ by{' '}
+        made with ❤️ by{" "}
         <a
           href="https://torn4dom4n.github.io"
           target="_blank"
@@ -86,5 +85,5 @@ export default function Home() {
         </a>
       </footer>
     </>
-  )
+  );
 }
