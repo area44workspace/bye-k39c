@@ -1,5 +1,5 @@
-import photos from "./photos";
-import Image from "next/image";
+import photos from './photos'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -73,7 +73,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        made with ❤️ by{" "}
+        made with ❤️ by{' '}
         <a
           href="https://torn4dom4n.github.io"
           target="_blank"
