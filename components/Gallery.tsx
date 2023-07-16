@@ -1423,7 +1423,7 @@ export default function Gallery() {
           />
         </AspectRatio>
       </DialogTrigger>
-      <DialogContent className='h-full p-0'>
+      <DialogContent className='max-h-full w-full p-0'>
         <Image
           key={src}
           alt='Unsplash photo'
@@ -1433,7 +1433,6 @@ export default function Gallery() {
           height={height}
           width={width}
           sizes='(max-width: 640px) 100vw, (max-width: 1280px) 50vw, (max-width: 1536px) 33vw, 25vw'
-          className='h-full'
         />
       </DialogContent>
     </Dialog>
