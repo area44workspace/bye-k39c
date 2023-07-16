@@ -1,58 +1,30 @@
-import './global.css'
-import type { Metadata } from 'next'
+import '@/app/globals.css';
+import type { Metadata } from 'next';
+
+const url = 'https://goodbye-k39c.netlify.app';
+const title = 'Tạm Biệt K39C';
+const description = 'Tiệc chia tay lớp Bác sĩ Y khoa K39C HPMU';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://goodbye-k39c.netlify.app'),
-  title: 'Goodbye K39C by Microlens',
-  description: 'Tiệc chia tay Y đa khoa K39C HPMU',
-  openGraph: {
-    title: 'Goodbye K39C by Microlens',
-    description: 'Tiệc chia tay Y đa khoa K39C HPMU',
-    url: 'https://goodbye-k39c.netlify.app',
-    siteName: 'Goodbye K39C by Microlens',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1920,
-        height: 1080,
-      },
-    ],
-    locale: 'vi-VN',
-    type: 'website',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Goodbye K39C by Microlens',
-    description: 'Tiệc chia tay Y đa khoa K39C HPMU',
-    creator: '@torn4dom4n',
-    images: ['/og-image.jpg'],
-  },
+  metadataBase: new URL(url),
+  title: title,
+  description: description,
   icons: {
-    shortcut: '/favicon.svg',
+    icon: '/favicon.svg',
   },
 };
 
-export default async function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang='en'>
-      <body className='bg-black antialiased'>{children}</body>
+      <head />
+      <body className='dark min-h-screen bg-background font-sans antialiased'>
+        {children}
+      </body>
     </html>
   );
 }

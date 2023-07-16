@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://goodbye-k39c.netlify.app/sitemap-index.xml
