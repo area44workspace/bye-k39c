@@ -1,4 +1,4 @@
-# Goodbye K39C
+# Goodbye K39C (Tạm Biệt K39C)
 
 This site built with [Next.js](https://nextjs.org).
 

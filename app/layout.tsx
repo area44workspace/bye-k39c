@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 const url = 'https://goodbye-k39c.netlify.app';
 const title = 'Tạm Biệt K39C';
-const description = 'Tiệc chia tay lớp Bác sĩ Y khoa K39C HPMU';
+const description = 'Tiệc chia tay Y đa khoa K39C HPMU';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
