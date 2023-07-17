@@ -2,7 +2,7 @@ import '@/app/globals.css';
 import type { Metadata } from 'next';
 
 const url = 'https://goodbye-k39c.netlify.app';
-const title = 'Tạm Biệt K39C';
+const title = 'Tạm Biệt K39C HPMU';
 const description = 'Tiệc chia tay Y đa khoa K39C HPMU';
 
 export const metadata: Metadata = {

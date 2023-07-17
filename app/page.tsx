@@ -1,7 +1,7 @@
 import Logo from '@/components/Logo';
 import Gallery from '@/components/Gallery';
 
-const title = 'Tạm Biệt K39C';
+const title = 'Tạm Biệt K39C HPMU';
 const description = 'Tiệc chia tay Y đa khoa K39C HPMU.';
 const author = 'Long Nhat Nguyen';
 const authorURL = 'https://torn4dom4n.github.io';
