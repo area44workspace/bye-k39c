@@ -48,7 +48,7 @@ export default function Gallery() {
             src={src}
             placeholder='blur'
             blurDataURL={base64}
-            alt='Unsplash photo'
+            alt='Goodbye K39C HPMU'
             className='rounded-lg object-cover brightness-90 transition will-change-auto group-hover:brightness-110'
             fill
           />
@@ -65,7 +65,7 @@ export default function Gallery() {
           blurDataURL={base64}
           height={height}
           width={width}
-          alt='Unsplash photo'
+          alt='Goodbye K39C HPMU'
           sizes='(max-width: 640px) 100vw, (max-width: 1280px) 50vw, (max-width: 1536px) 33vw, 25vw'
         />
       </DialogContent>
