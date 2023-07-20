@@ -56,7 +56,7 @@ export default function Gallery() {
       </DialogTrigger>
       <DialogContent
         className={`${
-          height > width == true ? 'max-h-full w-full' : 'sm:max-w-[625px]'
+          height > width == true ? 'max-w-[400px]' : 'max-w-[600px]'
         } p-0`}
       >
         <Image
@@ -66,7 +66,7 @@ export default function Gallery() {
           height={height}
           width={width}
           alt='Goodbye K39C HPMU'
-          sizes='(max-width: 640px) 100vw, (max-width: 1280px) 50vw, (max-width: 1536px) 33vw, 25vw'
+          className='object-contain sm:rounded-lg'
         />
       </DialogContent>
     </Dialog>
