@@ -2,7 +2,7 @@ import Icon from '@/components/Icon';
 import Gallery from '@/components/Gallery';
 
 const title = 'Tạm Biệt K39C HPMU';
-const description = 'Hải Phòng, ngày 07 tháng 04 năm 2023.';
+const description = 'Hải Phòng, tháng 04 năm 2023';
 const author = 'Long Nhat Nguyen';
 const authorURL = 'https://torn4dom4n.github.io';
 
